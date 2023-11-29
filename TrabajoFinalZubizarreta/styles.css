@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Pixelify Sans;
+}
+a {
+text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.contenedor{
+    width: 60%;
+    max-width: 1000px; 
+    margin: auto;
+}
+
+header{
+    background: url(images/fondo.jpg);
+    height: 60%;
+}
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20%;
+}
+header .logo-y-menu{
+display: flex;
+align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    color: white;
+}
+header a, .botones a {
+    background: purple;
+}
+header .titular {
+    margin-top: 50vh;
+}
+h1 {
+    font-size: 50px;
+    width: 100%;
+}
+.blanco {
+background: white   !important;
+}
+
+.white {
+    background: white !important;
+}
+
+#musica {
+    background-color: rgb(246, 20, 235)
+}
+
+#musica h2 {
+    margin: 0;
+    color: none;
+    border: 1px solid black;
+    width: 230px;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+#musica .contenedor{
+    display: flex;
+    align-items: center;
+}
+
+#musica span {
+color: blueviolet;
+text-decoration: underline;
+}
+
+#musica h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#musica p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#musica img {
+    width: 100%;
+}
+#musica .texto {
+    width: 50%;
+}
+
+#musica .foto {
+    width: 40%;  
+}
+
+
+#about h4 {
+    color:black
+}
+
+#about p, #tour p {
+    font-family: Poppins;
+}
+
+.negro  {
+    background: palevioletred !important;
+}
+
+#about {
+    padding: 100px 0;
+}
+
+#tour {
+    background: rgb(228, 71, 228)
+    padding-box
+}
+
+#tour img{
+    width: 100%;
+}
+
+#tour .texto {
+width: 50%;
+}
+
+#tour .imagen {
+    width: 40%;
+    position: relative;
+    top: -30px;
+}
+
+#tour .contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tour h4{
+    color:black
+    
+}
+
+.fechas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fechas .numero {
+    font-size: 34px;
+}
+
+.fechas h5 .fechas p {
+    margin: 0%;
+}
+
+.fechas h5{
+    font-size: 20px;
+}
+
+.fechas a {
+    background: white;
+    color: black;
+
+}
